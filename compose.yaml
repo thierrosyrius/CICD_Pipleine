@@ -3,7 +3,7 @@ services:
     build:
       context: .
     ports:
-      - 8080:8080
+      - 2364:2364
     develop:
       watch:
         - action: rebuild
